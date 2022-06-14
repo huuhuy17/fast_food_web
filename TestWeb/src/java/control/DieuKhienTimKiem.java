@@ -47,7 +47,7 @@ public class DieuKhienTimKiem extends HttpServlet {
         yeuCau.setAttribute("dsPhanLoai", dsPhanLoai);
         yeuCau.setAttribute("spMoiNhat", spMoiNhat);
         yeuCau.setAttribute("tuKhoaCu", strTimKiem);
-        yeuCau.getRequestDispatcher("TrangChu.jsp").forward(yeuCau, phanHoi);
+        yeuCau.getRequestDispatcher("/views/TrangChu.jsp").forward(yeuCau, phanHoi);
         
     }
 

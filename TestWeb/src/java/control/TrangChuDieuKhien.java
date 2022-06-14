@@ -46,7 +46,7 @@ public class TrangChuDieuKhien extends HttpServlet {
         request.setAttribute("listP", list);
         request.setAttribute("dsPhanLoai", listC);
         request.setAttribute("spMoiNhat", last);
-        request.getRequestDispatcher("TrangChu.jsp").forward(request, response);
+        request.getRequestDispatcher("/views/TrangChu.jsp").forward(request, response);
         //404 -> url
         //500 -> jsp properties
     }

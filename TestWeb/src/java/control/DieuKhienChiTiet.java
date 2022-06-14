@@ -46,7 +46,7 @@ public class DieuKhienChiTiet extends HttpServlet {
         yeuCau.setAttribute("detail", p);
         yeuCau.setAttribute("dsPhanLoai", dsPhanLoai);
         yeuCau.setAttribute("spMoiNhat", spMoiNhat);
-        yeuCau.getRequestDispatcher("ChiTiet.jsp").forward(yeuCau, phanHoi);
+        yeuCau.getRequestDispatcher("/views/ChiTiet.jsp").forward(yeuCau, phanHoi);
         
     }
 

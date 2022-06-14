@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Footer
-    Created on : Jun 14, 2022, 4:05:39 PM
-    Author     : Avada Kedavra
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 

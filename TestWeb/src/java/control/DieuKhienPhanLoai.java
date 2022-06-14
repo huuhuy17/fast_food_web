@@ -48,7 +48,7 @@ public class DieuKhienPhanLoai extends HttpServlet {
         yeuCau.setAttribute("dsPhanLoai", dsPhanLoai);
         yeuCau.setAttribute("spMoiNhat", spMoiNhat);
         yeuCau.setAttribute("tag", IDPhanLoai);
-        yeuCau.getRequestDispatcher("TrangChu.jsp").forward(yeuCau, phanHoi);
+        yeuCau.getRequestDispatcher("/views/TrangChu.jsp").forward(yeuCau, phanHoi);
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
