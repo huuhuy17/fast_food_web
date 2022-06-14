@@ -6,8 +6,8 @@
 package dao;
 
 import context.DBContext;
-import entity.PhanLoai;
-import entity.SanPham;
+import model.PhanLoai;
+import model.SanPham;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

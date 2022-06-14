@@ -5,8 +5,8 @@
 package control;
 
 import dao.DAO;
-import entity.PhanLoai;
-import entity.SanPham;
+import model.PhanLoai;
+import model.SanPham;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
